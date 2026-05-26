@@ -1,0 +1,16 @@
+{
+  "rows": 1800,
+  "features": [
+    "Global_active_power",
+    "temperature",
+    "humidity",
+    "hour_sin",
+    "hour_cos",
+    "is_weekend"
+  ],
+  "window_size": 48,
+  "horizon": 1,
+  "train_windows": 1226,
+  "val_windows": 263,
+  "test_windows": 263
+}

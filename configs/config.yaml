@@ -1,0 +1,28 @@
+project:
+  name: energy_forecasting_project
+  target: Global_active_power
+  seed: 42
+
+data:
+  csv_path: data/energy_consumption.csv
+  periods: 1800
+  freq: H
+  window_size: 48
+  horizon: 1
+  train_ratio: 0.7
+  val_ratio: 0.15
+
+model:
+  input_size: 6
+  hidden_size: 64
+  num_layers: 2
+  dropout: 0.2
+
+training:
+  batch_size: 64
+  epochs: 8
+  learning_rate: 0.001
+  weight_decay: 0.0001
+
+outputs:
+  dir: outputs
