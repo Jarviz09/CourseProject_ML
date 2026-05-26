@@ -31,9 +31,6 @@ energy_forecasting_project/
 │   ├── daily_profile.png
 │   ├── metrics.json
 │   └── speaker_notes.md
-├── scripts/
-│   ├── build_presentation.js
-│   └── generate_outputs.py
 ├── src/
 │   ├── data.py
 │   ├── eda.py
@@ -70,12 +67,6 @@ python -m src.train
 
 ```bash
 python -m src.evaluate
-```
-
-Собрать презентацию:
-
-```bash
-node scripts/build_presentation.js
 ```
 
 ## Метод решения
